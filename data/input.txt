@@ -1,0 +1,14 @@
+#url,title,description,content_type (video,text,html,pdf)
+https://sanskritdocuments.org/sanskrit/veda,All Vedas,index of Sanskrit Documents categorized as veda is available in various languages,html
+http://veda.wikidot.com/vedic-time-system,Unit of measurement,Vedic Time System,html
+https://www.speakingtree.in/blog/physics-of-vedas,Physics of Vedas,,html
+https://en.wikipedia.org/wiki/Katapayadi_system",Value of Pi,,html
+https://www.booksfact.com/vedas/rig-veda/speed-of-light-calculated-in-vedas-of-ancient-india.html,Speed of light,,html
+#Video links
+http://www.hindupedia.com/en/Mathematics_of_the_Vedas#Error_Correction_.26_Detection_Codes",Error detection codes,,html
+https://www.youtube.com/watch?v=TnvzNFf6V44,Evidence Calculus,,video
+https://www.youtube.com/watch?v=Y7dQoSkoN0g,Highlight of Science,,video
+https://www.youtube.com/watch?v=Dc9GUJXbuRY,Highlight of Science - 1,,video
+https://www.youtube.com/watch?v=T7XCjPeblOo,Ancient Indian Geometry,,video
+https://www.youtube.com/watch?v=10tDjMdX_nA,Indus Civilization - recent,,video
+https://www.youtube.com/watch?v=RT4pUJMDV2Y,Aryan Issue,,video
