@@ -1,0 +1,24 @@
+# git remote -v 
+# git clone "https://github.com/rajususa/identity.git" 
+# git status
+# git add -A . 
+git status
+git commit -m "Added new links. Fixed rb file" 
+git push
+git remote add upstream "https://github.com/sanskrithub/identity.git" 
+git remote -v
+git fetch upstream
+
+#1 before you start work 
+Always ddo this before working 
+git fetch upstream/master master
+git merge upstream/master master
+
+#2 after work is done
+git status
+git add -A . 
+git status
+git commit -m "updated instructions"
+git push
+
+#3 On the  git account in this repo create a pull request 
