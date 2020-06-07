@@ -14,7 +14,7 @@ def outputHeader(ofile)
   ofile.write "<body class=\"is-preload\">"
   ofile.write "<div id=\"wrapper\" class=\"divided\">"
   ofile.write "<h2>Sanskrit - Empower by knowing yourself </h2>"
-  ofile.write "<h2> Goto https://sanskrithub.github.io/identity</h2>"
+  #ofile.write "<h2> Goto https://sanskrithub.github.io/identity</h2>"
 end
 
 def outputFooter(ofile)
@@ -29,11 +29,11 @@ def outputTextLinkSectionHeader(ofile, title)
   ofile.write "<h2>"
   ofile.write title
   ofile.write "</h2>"
-  ofile.write "<ul class=\"actions stacked\">"
+  ofile.write "<div class=\"items style1 medium\">"
 end
 
 def outputTextLinksSectionFooter(ofile)
-  ofile.write "</ul>"
+  ofile.write "</div>"
   ofile.write "</div>"
   ofile.write "</section>"
 end
@@ -58,24 +58,18 @@ end
 
 def outputLink(ofile, line, type)
     values = line.split(",")
-    if type == nil
-      ofile.write "<li>"
-    else
-      ofile.write "<section>"
-    end
+    ofile.write "<section>"
     ofile.write "<a href=\""
     ofile.write values[0]
     ofile.write "\""
-    ofile.write " class=\"button big wide smooth-scroll-middle\">"
+    ofile.write " target=\"_blank\" class=\"button big wide smooth-scroll-middle\">"
     ofile.write values[1]
     ofile.write "</a><p>"
     ofile.write values[2]
     ofile.write "</p>"
-    if type == nil
-      ofile.write "</li>"
-    else
-      ofile.write "</section>"
-    end
+    
+    ofile.write "</section>"
+    
 end
 
 def outputLinks(ofile)
