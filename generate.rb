@@ -13,7 +13,8 @@ def outputHeader(ofile)
   ofile.write "</head>"
   ofile.write "<body class=\"is-preload\">"
   ofile.write "<div id=\"wrapper\" class=\"divided\">"
-  ofile.write "<h2>Sanskrit - Empower by knowing yourself</h2>"
+  ofile.write "<h2>Sanskrit - Empower by knowing yourself </h2>"
+  ofile.write "<h2> Goto https://sanskrithub.github.io/identity</h2>"
 end
 
 def outputFooter(ofile)
@@ -67,7 +68,9 @@ def outputLink(ofile, line, type)
     ofile.write "\""
     ofile.write " class=\"button big wide smooth-scroll-middle\">"
     ofile.write values[1]
-    ofile.write "</a>"
+    ofile.write "</a><p>"
+    ofile.write values[2]
+    ofile.write "</p>"
     if type == nil
       ofile.write "</li>"
     else
@@ -100,7 +103,7 @@ def processInput()
   videoArray = []
   File.foreach("./data/input.txt").with_index do |line, line_num|
     if line[0] == "#"
-      puts "Found comment, ignoring"
+      # puts "Found comment, ignoring"
       next   
      end
 
